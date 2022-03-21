@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"type="text/css"
+          href="text.css">
+    <link href="styles.css" rel="stylesheet">
+    <script src="out.js" defer></script>
+</head>
+<body>
+<nav class="fixed-nav-bar"><a href="website.html"> Главная</a>
+    <a class="login_button" href="Authorization.html"> Зарегистрироваться</a>
+</nav>
+<div class="menu">
+    <form action="../Checklogin.php" method="POST">
+        <h2 class="logintxt">Логин</h2>
+        <input class="login" type="text" id="L" name="login">
+        <h2 class="passwordtxt">Пароль</h2>
+        <input class="password" type="password" id="P" name="pass">
+        <center><p class="button"><button type="submit" onclick="exe()"> Войти</button></p></center>
+        <p id="tx"></p>
+        <P id="txV"></P>
+    </form>
+</div>
+</body>
+</html>

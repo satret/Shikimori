@@ -1,0 +1,98 @@
+
+/*
+*{//обнуление отступов
+    padding: 0;
+    margin: 0;
+}
+*/
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Yu Gothic UI Semibold";
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: #2424ff;
+}
+a:visited{
+    color: #9000cc;
+}
+.img{
+    width: 200px;
+    border-radius: 28px;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.spisok{
+    background-color: #ff8d8d;
+    border-radius: 20px;
+    padding: 15px 40px;
+    border: 4px solid #ff6666;
+}
+.fixed-nav-bar {
+    font-size: 40px;
+    background-color: #ffffff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+    background-color: #ffdefa;
+    text-color: #a0d1ff;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.login_button{
+    float: right;
+}
+.menu{
+    background-color: #ff8d8d;
+    margin: auto;
+    max-width: 600px;
+}
+.login{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    width: 25%;
+    height: 35px;
+    border: 1px solid #ff8c00;
+}
+.password{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    width: 25%;
+    height: 35px;
+    border: 1px solid #ff8c00;
+}
+.logintxt{
+    margin: auto;
+    text-align: center;
+}
+.passwordtxt{
+    margin: auto;
+    text-align: center
+}
+.button{
+    box-sizing: border-box;
+
+    height: 35px;
+}
