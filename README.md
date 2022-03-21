@@ -1,1 +1,1 @@
-# Shikimori 2.0
+# Shikimori
